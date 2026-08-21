@@ -1,0 +1,17 @@
+//
+//  ADCustomAdapterFLNInitialize.h
+//  InnoAdsMediationDemo
+//
+//  Created by fan on 2026/3/31.
+//  Copyright © 2026 陈坤. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <InnoMediationSDK/ADRFMediationCustomAdapterInitialize.h>
+NS_ASSUME_NONNULL_BEGIN
+
+@interface ADCustomAdapterFLNInitialize : ADRFMediationCustomAdapterInitialize
+
+@end
+
+NS_ASSUME_NONNULL_END

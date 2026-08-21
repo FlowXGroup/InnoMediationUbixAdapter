@@ -1,0 +1,6 @@
+framework module InnoMediationUbixAdapter {
+  umbrella header "InnoMediationUbixAdapter.h"
+  export *
+
+  module * { export * }
+}
