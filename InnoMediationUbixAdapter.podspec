@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'InnoMediationUbixAdapter'
   # 与 +platformSDKVersion 一致：FLN sdkVersion + Adapter 后缀
-  s.version          = '6.2.0.18.0004'
+  s.version          = '6.2.1.11.0004'
   s.summary          = 'InnoMediation Ubix Adapter for FLNAdSDK'
   s.description      = 'Prebuilt custom mediation adapter bridging InnoMediationSDK and FLNAdSDK (sdkName: ubix).'
   s.homepage         = 'https://github.com/FlowXGroup/InnoMediationUbixAdapter'
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   # 预编译产物；宿主自行手动链入 InnoMediationSDK
   s.vendored_frameworks = 'dist/InnoMediationUbixAdapter.xcframework'
-  s.dependency 'FLNAdSDK', '6.2.0.18'
+  s.dependency 'FLNAdSDK', '6.2.1.11'
 
   s.pod_target_xcconfig = {
     'OTHER_LDFLAGS' => '-ObjC'
